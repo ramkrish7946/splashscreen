@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimaryDark"
+    tools:context=".MainActivity">
+
+
+    <ImageView
+        android:layout_width="376dp"
+        android:layout_height="570dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerVertical="true"
+        android:layout_marginTop="69dp"
+        android:layout_marginEnd="19dp"
+        android:src="@drawable/pic2"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="35dp"
+        tools:layout_editor_absoluteY="98dp" />
+
+    <ProgressBar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="14dp"
+        android:layout_marginTop="350dp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="59dp"
+        tools:layout_editor_absoluteY="668dp" />
+
+
+</RelativeLayout>
